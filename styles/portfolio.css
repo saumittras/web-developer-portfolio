@@ -12,6 +12,9 @@
 .text-prymary {
   color: #fd6e0a;
 }
+.secondary-bg {
+  background-color: #fff8f3;
+}
 /* Nav Styles */
 
 .nav-title {
@@ -35,4 +38,28 @@ nav ul li a {
 }
 nav ul {
   display: flex;
+}
+
+/* Footer Styles */
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
 }
